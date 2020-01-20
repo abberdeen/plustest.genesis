@@ -1,0 +1,19 @@
+
+/* Intro */
+
+#intro {
+	background: url("/app/resources/files/IMG_3057.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:bottom center;
+	background-repeat: no-repeat;
+}
+
+ 
+@media screen and (max-width: 736px) {
+
+	#contact .box {
+		padding-bottom: 2em;
+	}
+
+}

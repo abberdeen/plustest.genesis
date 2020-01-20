@@ -1,0 +1,97 @@
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+.container-x{
+    float: left;
+}
+/*COLUMNS*/
+.column {
+    background-color: white;
+    min-width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.column.right {
+    border: 1px solid #9e9e9e;
+}
+.column.over {
+    border: 1px dashed #9e9e9e;
+    background: whitesmoke;
+}
+/*CONNECTOR*/
+.connector{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    z-index: 1;
+    text-align:center;
+    padding-top:1px;
+    font-size:1.1rem;
+    font-weight:600;
+    color:#1e1e1e;
+    cursor: pointer;
+}
+.connector.left{
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid #1e1e1e;
+}
+.connector.right{
+    padding-top:0px;
+    margin-left: 5px;
+    text-align: center;
+    border: 3px solid #c1c0b6;
+    color: #1e1e1e;
+}
+.msvr{
+    -webkit-box-shadow: 0px 0px 2px 3px #bababa;
+    -moz-box-shadow: 0px 0px 2px 3px #bababa;
+    box-shadow: 0px 0px 2px 3px #bababa;
+}
+/*CONTENT*/
+.content-format{
+    padding: 0 10px 0 10px;
+}
+
+/*LEFT COLUMN BORDER COLORS*/
+.bdef{
+    background: white;
+}
+.cl0 {
+    border: 1px solid #F44336;
+}
+.cl1 {
+    border: 1px solid #FFC107;
+}
+.cl2 {
+    border: 1px solid #03A9F4;
+}
+.cl3 {
+    border: 1px solid #4CAF50;
+}
+/*LEFT COLUMN BACKGROUND COLORS*/
+.clb0 {
+    background: #F44336;
+}
+.clb1 {
+    background: #FFC107;
+}
+.clb2 {
+    background: #03A9F4;
+}
+.clb3 {
+    background: #4CAF50;
+}
+
+/**/
+
+
+

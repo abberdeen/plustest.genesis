@@ -1,0 +1,37 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 10rem;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    padding:2rem 0;
+    font-size:85%;
+    text-align:center;
+    background-color:#242729;
+}
+.footer-min {
+    height: 6rem;
+}
+.footer a{font-weight:500;color:#bbc0c4}
+.footer a:hover{color:#0275d8}
+.footer p{margin-bottom:0}@media (min-width:576px){.footer{text-align:left}}
+
+.footer-links {
+    padding-left:0;
+    margin-bottom:1rem;
+}
+.footer-links li {
+    display:inline-block;
+}
+.footer-links li+li {
+    margin-left:1rem;
+}
