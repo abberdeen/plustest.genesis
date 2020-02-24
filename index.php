@@ -2,8 +2,7 @@
 /*
  * Front Controller
  * Everything pass from this file, because it is necessary for app work and that configured in .htaccess
- * But some of the son of a bitch~ can directly load any php file or other type of file if know path to file, it could lead to serious trouble
- * ~hackers are not sun of a bitch, they are hackers
+ * But some of the people can directly load any php file or other type of file if know path to file, it could lead to serious trouble
  * Files relations similar to waterfall and app work in general similar to generator or 'function'
 */
 /**
